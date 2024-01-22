@@ -1,0 +1,27 @@
+.fc-resource-area span.fc-icon { display: none !important; }
+.fc-timeline-event { border-radius: 20px; font-size: 70%; margin-top: 3px; }
+.fc-timeline-event .fc-title-wrap { margin-left: 0.5rem; margin-right: 0.5rem }
+.fc-bg .fc-today, .fc-content .fc-today:not([colspan]) {
+    border-left: 2px solid #FC8181 !important;
+    background: #FFF5F5 !important;
+}
+.fc-bg .fc-past, .fc-content .fc-past {
+    background: #F7FAFC !important;
+}
+.fc-bg .fc-sat, .fc-bg .fc-sun,
+.fc-content .fc-sat, .fc-content .fc-sun {
+    background: #FFFFF0 !important;
+}
+.fc-unthemed .fc-divider, .fc-unthemed .fc-popover .fc-header, .fc-unthemed .fc-list-heading td {
+    background: #4A5568;
+    color: #fff;
+    font-weight: 500;
+}
+.fc-timeline .fc-head > tr > .fc-divider,
+.fc-timeline .fc-body > tr > .fc-divider {
+    background: #eee;
+}
+.fc-highlight {
+    background: #FAF089;
+    opacity: 0.3;
+}

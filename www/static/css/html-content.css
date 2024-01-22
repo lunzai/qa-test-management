@@ -1,0 +1,170 @@
+.html-content {
+    line-height: 1.5; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    overflow: auto;
+}
+
+.html-content h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.html-content h2 {
+    font-size: 1.75em;
+    margin: 0.5em 0;
+}
+
+.html-content h3 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.html-content h4 {
+    font-size: 1.25em;
+    margin: 0.5em 0;
+}
+
+.html-content hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+}
+
+.html-content pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+.html-content a {
+    background-color: transparent;
+}
+
+.html-content abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+}
+
+.html-content b,
+.html-content strong {
+    font-weight: bold;
+}
+
+.html-content code,
+.html-content kbd,
+.html-content samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+.html-content small {
+    font-size: 80%;
+}
+
+.html-content sub,
+.html-content sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.html-content sub {
+    bottom: -0.25em;
+}
+
+.html-content sup {
+    top: -0.5em;
+}
+
+.html-content img {
+    border-style: none;
+}
+
+.html-content legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+}
+
+.html-content table {
+    border: 1px solid #ccc;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.html-content th, .html-content td {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+}
+
+.html-content th {
+    font-weight: 600;
+    background: #eee;
+}
+
+.html-content ul, .html-content ol {
+    list-style-position: inside;
+    padding-left: 0.75rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    display: block;
+    padding-left: 1.75rem;
+}
+
+.html-content ul {
+    list-style-type: disc;
+}
+
+.html-content ol {
+    list-style-type: decimal;
+}
+
+.html-content ul li, .html-content ol li {
+    list-style-position: outside;
+    display: list-item;
+    margin: 0;
+    padding-left: 0.5rem;
+}
+
+.html-content ul li {
+    list-style-type: disc;
+}
+
+.html-content ul li {
+    list-style-type: decimal;
+}
+
+.html-content p {
+    margin-bottom: 0.35rem;
+}
+
+.html-content dt {
+    font-weight: 600;
+}
+
+.html-content pre, .html-content code {
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    color: #444;
+    font-size: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.html-content code {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.html-content img {
+    max-width: 100%;
+    display: block;
+}

@@ -1,0 +1,14 @@
+.DS_Store
+/node_modules/
+/src/node_modules/@sapper/
+yarn-error.log
+/cypress/screenshots/
+/cypress/videos/
+/__sapper__/
+.env
+.sessions/
+.vscode/
+public/
+/src/node_modules/@app/config.js
+/static/css/index.css
+/static/vendors

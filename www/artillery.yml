@@ -1,0 +1,47 @@
+config:
+  # target: 'https://qa.wc-app.com'
+  target: 'http://qa.test:3000'
+  phases: 
+    # - duration: 30
+    #   arrivalRate: 1
+    #   rampTo: 10
+    #   name: 'Warming up: 5 to 50 in 2 mins'
+    # - duration: 180
+    #   arrivalRate: 10
+    #   rampTo: 10
+    #   name: 'Maintain: 50 for 5 mins'
+    - duration: 5
+      arrivalCount: 2
+  variables:
+    groupIds:
+      - [1, 2]
+    issueIds:
+      - [10, 9, 8]
+scenarios:
+  - flow:
+    - post: 
+        url: '/auth/login'
+        json:
+          email: 'hl@whitecoat.global'
+          password: 'heanluen'
+    - get:
+        url: '/profile/6'
+    - get: 
+        url: '/group'
+    - get: 
+        url: '/group'
+        qs:
+            sort: '-name'
+    # - get: 
+    #     url: '/group'
+    #     qs:
+    #         sort: 'name'
+    #         status: 'Active'
+    - loop:
+      - get: 
+          url: '/group/{{ $loopElement }}'
+      over: groupIds
+    - loop:
+      - get: 
+          url: '/issue/{{ $loopElement }}'
+      over: issueIds
