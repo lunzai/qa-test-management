@@ -1,10 +1,10 @@
 module.exports = {
     apps: [
         {
-            name: "wc-qaapp",
+            name: "qaapp",
             script: "npm",
             args: "start",
-            cwd: "/var/www/segi/tcs3223/app/www",
+            cwd: "/var/www/qa/app/www",
             watch: false,
             env: {
                 NODE_ENV: "production"
