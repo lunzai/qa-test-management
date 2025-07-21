@@ -1,5 +1,5 @@
 <script context="module">
-    import Model from '@app/models/bugFeature';
+    import Model from '@app/models/BugFeature';
     import { loginIsValid } from '@app/accessControl';
 
     export async function preload({ params }, { token }) {
