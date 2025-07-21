@@ -64,7 +64,7 @@
         Default role, don't uncheck. Actually it kinda do nothing for now.
     </p>
 </div>
-<!-- <div class="mb-6">
+<div class="mb-6">
     <Checkbox 
         on:change={handleChange}
         checked={model.hasRole(ROLE_TIMELINE)} 
@@ -74,7 +74,7 @@
         <i class="fas fa-info-circle"></i> 
         Add user to timeline calendar.
     </p>
-</div> -->
+</div>
 <div class="mb-6">
     <Checkbox 
         on:change={handleChange}

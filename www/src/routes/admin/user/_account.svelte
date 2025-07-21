@@ -109,7 +109,7 @@
             </div>
         </DetailedRow>
     </div>
-    <!--
+    
     <div class="mb-6">
         <DetailedRow paddingTop="0" paddingBottom="0">
             <div slot="label">
@@ -125,7 +125,7 @@
             </div>
         </DetailedRow>
     </div>
-    -->
+   
     <div class="">
         <Button 
             label="Save" 
