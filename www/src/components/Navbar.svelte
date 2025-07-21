@@ -34,10 +34,10 @@
             label: 'Home',
             href: '/',
         },
-        // {
-        //     label: 'Timeline',
-        //     href: '/timeline',
-        // },
+        {
+            label: 'Timeline',
+            href: '/timeline',
+        },
         {
             label: 'Group',
             href: '/group',
@@ -46,10 +46,10 @@
             label: 'My Issues',
             href: '/issue/assigned',
         },
-        // {
-        //     label: 'Bug Report',
-        //     href: '/bug',
-        // },
+        {
+            label: 'Bug Report',
+            href: '/bug',
+        },
         {
             label: 'Admin',
             href: '/admin',

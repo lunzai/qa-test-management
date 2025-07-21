@@ -7,16 +7,16 @@
             href: '/admin/user',
             active: segment == 'user',
         },
-        // {
-        //     label: 'Country',
-        //     href: '/admin/country',
-        //     active: segment == 'country',
-        // },
-        // {
-        //     label: 'Holiday',
-        //     href: '/admin/holiday',
-        //     active: segment == 'holiday',
-        // },
+        {
+            label: 'Country',
+            href: '/admin/country',
+            active: segment == 'country',
+        },
+        {
+            label: 'Holiday',
+            href: '/admin/holiday',
+            active: segment == 'holiday',
+        },
     ]
 </script>
 
