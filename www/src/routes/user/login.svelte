@@ -109,7 +109,7 @@
                     bind:value={email}
                     error={errors && errors.email}
                     required 
-                    placeholder="peter.tan@whitecoat.global"
+                    placeholder="peter.tan@example.com"
                     type="email"
                 />
 

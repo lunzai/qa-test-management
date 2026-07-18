@@ -50,7 +50,7 @@
             <div slot="content">
                 <ActiveTextInput 
                     {model}
-                    placeholder="whoever@whitecoat.global"
+                    placeholder="whoever@example.com"
                     attribute="email"
                     label={false}
                     required 

@@ -30,7 +30,7 @@ const rules = {
         email: true,
         type: "string",
         format: {
-            pattern: /.*@whitecoat\.(global|com\.sg)/i,
+            pattern: /.*@example\.com/i,
             message: `not allowed`,
         }
     },
@@ -145,7 +145,7 @@ function valiateField(event) {
                     bind:value={email}
                     error={errors && errors.email}
                     required 
-                    placeholder="peter.tan@whitecoat.global"
+                    placeholder="peter.tan@example.com"
                     type="email"
                 />
 

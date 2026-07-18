@@ -1,5 +1,4 @@
 config:
-  # target: 'https://qa.wc-app.com'
   target: 'http://qa.test:3000'
   phases: 
     # - duration: 30
@@ -22,8 +21,8 @@ scenarios:
     - post: 
         url: '/auth/login'
         json:
-          email: 'hl@whitecoat.global'
-          password: 'heanluen'
+          email: 'user@example.com'
+          password: 'somepassword'
     - get:
         url: '/profile/6'
     - get: 

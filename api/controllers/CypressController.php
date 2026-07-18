@@ -19,7 +19,7 @@ class CypressController extends ActiveController
     {
         $db = Yii::$app->getDb();
         $user = Yii::$app->getUser()->getIdentity();
-        if (!$user || !preg_match('/^.*cypress.*@whitecoat\.(com\.sg|global)$/i', $user->email)) {
+        if (!$user || !preg_match('/^.*cypress.*@example\.com$/i', $user->email)) {
             throw new UnauthorizedHttpException('Unauthorized access');
         }
         $tables = ['test_result', 'test_case', 'issue', 'group'];

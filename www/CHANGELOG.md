@@ -8,7 +8,6 @@
     - Leave mgmt + calendar integartion
 - Clone group without test result - for deployment test run
 - Auto complete / suggest for table filter field
-- Move qa.wc-app.com to tech.wc-app.com
 - Audit for timeline and maybe other thing
 - calendar add milestone
 - calendar end date = next day problem

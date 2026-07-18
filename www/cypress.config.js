@@ -5,15 +5,15 @@ module.exports = defineConfig({
   video: true,
   env: {
     apiUrl: 'http://api.qa.test',
-    domain: 'whitecoat.global',
-    existingUserEmail: 'hl@whitecoat.global',
+    domain: 'example.Com',
+    existingUserEmail: 'user@example.com',
     testUser: {
-      email: 'tech+cypress@whitecoat.global',
+      email: 'tech+cypress@example.com',
       password: 'cypresstester',
       display_name: 'Cypress Test',
     },
     testAdmin: {
-      email: 'tech+cypressadmin@whitecoat.global',
+      email: 'tech+cypressadmin@example.com',
       password: 'cypressadmin',
       display_name: 'Cypress Admin',
       role: 'Admin',

@@ -5,8 +5,8 @@ import time
 
 def login(self):
     loginData = {
-        'email': 'hl@whitecoat.global',
-        'password': 'heanluen'
+        'email': 'user@example.com',
+        'password': 'somepassword'
     }
     with self.client.post("/user/auth", loginData, catch_response = True) as response:
         data = response.json()
